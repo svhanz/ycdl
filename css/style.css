@@ -175,8 +175,15 @@ main {
 
 .swiper-button-prev {
   color: grey;
+
 }
 
 .swiper-button-next {
+  display: block;
   color: grey;
+}
+
+.swiper-button-next,
+.swiper-button-prev:focus {
+  outline: 0;
 }
