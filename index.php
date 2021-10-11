@@ -1,4 +1,6 @@
+<!--==START HEADER==-->
 <?php get_header();?>
+<!--==END HEADER==-->
 <!--==MAIN CONTENT==-->
 <main>
   <!--==START SWIPER==-->
@@ -23,17 +25,9 @@
   <!--==END SWIPER==-->
 </main>
 <!--==END MAIN==-->
-
 <!--==START FOOTER==-->
-<footer>
-  <div class="footerContainer">
-    <p class="footerContainer-text">© 2021 david lin. all rights reserved.</p>
-  </div>
-</footer>
+<?php get_footer(); ?>
 <!--==END FOOTER==-->
-<script src="js/swiper-bundle.min.js"></script>
-<!--<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>-->
-<script src="js/script.js"></script>
 </body>
 
 </html>

@@ -6,6 +6,7 @@ wp_enqueue_style( 'main', get_stylesheet_uri() );
 wp_enqueue_style( 'ycdl', get_template_directory_uri() . '/css/swiper-bundle.min.css', array('main'), null );
 wp_enqueue_style( 'ycdl', get_template_directory_uri() . '/css/style.css', array('main'), null );
 
-
-wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/example.js', array(), '1.0.0', true );
+//connect scripts
+wp_enqueue_script( 'swiper', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), '1.0.0', true );
+wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array(swiper), '1.0.0', true );
 }
