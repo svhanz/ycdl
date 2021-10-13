@@ -1,6 +1,6 @@
     //import Swiper from 'swiper/swiper-bundle.esm.js';
     //import 'swiper/swiper-bundle.css';
-    var swiper = new Swiper('.swiper', {
+    let swiper = new Swiper('.swiper', {
       slidesPerView: 1,
       spaceBetween: 30,
       slidesPerGroup: 1,

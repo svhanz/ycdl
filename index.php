@@ -7,13 +7,13 @@
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="img/27horowitz2-jumbo-v2.jpg" alt="" />
+        <img src="images/27horowitz2-jumbo-v2.jpg" alt="" />
       </div>
       <div class="swiper-slide">
-        <img src="img/dog_terrier_mix_272830.jpg" alt="" />
+        <img src="images/dog_terrier_mix_272830.jpg" alt="" />
       </div>
       <div class="swiper-slide">
-        <img src="img/dogs_dog_animal_215598.jpg" alt="" />
+        <img src="images/dogs_dog_animal_215598.jpg" alt="" />
       </div>
     </div>
     <!--==Add Pagination==-->
@@ -28,6 +28,3 @@
 <!--==START FOOTER==-->
 <?php get_footer(); ?>
 <!--==END FOOTER==-->
-</body>
-
-</html>

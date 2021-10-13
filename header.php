@@ -18,8 +18,13 @@
   <header>
     <div class="headerInside">
       <div class="logo">
-        <a href="#">
-          <img class="logo" src="img/ycdl-logo.svg" alt="Logo YCDL" />
+        <a href="index.html">
+          <?php
+          if (has_custom_logo()) {
+            // если логотип есть выводим его
+            echo get_custom_logo();
+          }
+          ?>
         </a>
       </div>
       <div class="navWrap">
