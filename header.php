@@ -18,7 +18,7 @@
   <header>
     <div class="headerInside">
       <div class="logo">
-        <a href="index.html">
+        <a href="front-page.php">
           <?php
           if (has_custom_logo()) {
             // если логотип есть выводим его

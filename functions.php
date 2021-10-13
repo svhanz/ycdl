@@ -25,4 +25,16 @@ wp_enqueue_style( 'ycdl', get_template_directory_uri() . '/css/style.css', array
 wp_enqueue_script( 'swiper', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), '1.0.0', true );
 wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true );
 }
+// регистрируем сразу несколько областей меню
+function ycdl_menus() {
+// собираем несколько зон(областей) меню
+	$locations = array(
+		'header'  => __( 'Header Menu', 'ycdl' ),
+		'footer_left'   => __( 'Footer Left Menu', 'ycdl' ),
+		'footer_right'   => __( 'Footer Right Menu', 'ycdl' ),
+	);
+// регистрируем области меню, которые лежат в переменной $locations
+  register_nav_menus( $locations );
+}
+add_action('init', 'ycdl_menus');
 ?>
