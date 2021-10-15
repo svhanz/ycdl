@@ -1,9 +1,9 @@
     //import Swiper from 'swiper/swiper-bundle.esm.js';
     //import 'swiper/swiper-bundle.css';
     let swiper = new Swiper('.swiper', {
-      slidesPerView: 3,
-      spaceBetween: 10,
-      slidesPerGroup: 3,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
       loop: true,
       loopFillGroupWithBlank: true,
       pagination: {
