@@ -2,7 +2,7 @@
 <div class="swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <img src="<?php echo get_template_directory_uri(  ) . '/images/dog_terrier_mix_272830.jpg' ?>" alt="Audi_R8" />
+      <img src="<?php echo get_template_directory_uri(  ) . '/images/ShanghaiFuture.jpeg' ?>" alt="Audi_R8" />
     </div>
     <div class="swiper-slide">
       <img src="<?php echo get_template_directory_uri(  ) . '/images/AudiQ5_Boredoms_Cure.jpeg' ?>" alt="AudiQ5" />
