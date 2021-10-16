@@ -2,7 +2,7 @@
 <div class="swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <img src="<?php echo get_template_directory_uri(  ) . '/images/dog_terrier_mix_272830.jpg' ?>" alt="Audi_R8" />
+      <img src="<?php echo get_template_directory_uri(  ) . '/images/ShanghaiFuture.jpeg' ?>" alt="ShanghaiFuture" />
     </div>
     <div class="swiper-slide">
       <img src="<?php echo get_template_directory_uri(  ) . '/images/AudiQ5_Boredoms_Cure.jpeg' ?>" alt="AudiQ5" />
@@ -34,7 +34,7 @@
       <img src="<?php echo get_template_directory_uri(  ) . '/images/Kohler_Exquisite_Future.jpeg' ?>" alt="Kohler" />
     </div>
     <div class="swiper-slide">
-      <img src="<?php echo get_template_directory_uri(  ) . '/images/Lyfen_World Cup.jpeg' ?>" alt="Lyfen" />
+      <img src="<?php echo get_template_directory_uri(  ) . '/images/Lyfen_World_Cup.jpeg' ?>" alt="Lyfen" />
     </div>
     <div class="swiper-slide">
       <img src="<?php echo get_template_directory_uri(  ) . '/images/MAZDA_Art.jpeg' ?>" alt="MAZDA_Art" />
