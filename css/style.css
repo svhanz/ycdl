@@ -76,6 +76,7 @@ html {
 }
 
 /* START HEADER */
+
 header {
   /* Прибиваем хэдер к верху */
   position: -webkit-sticky;
@@ -87,6 +88,13 @@ header {
   padding: 5px 0;
   margin-top: 10px;
   margin-bottom: 50px;
+}
+
+#menu-header-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
 
 .headerInside {
@@ -101,10 +109,10 @@ header {
 }
 
 .navWrap {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  float: right;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  float: right !important;
   height: 50px;
 }
 

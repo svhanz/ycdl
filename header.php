@@ -28,9 +28,10 @@
         </a>
       </div>
       <div class="navWrap">
-        <a href="#">films</a>
-        <a href="#">contact</a>
-        <a href="#">about</a>
+        <?php wp_nav_menu();?>
+        <!--<a href="#">films</a>-->
+        <!--<a href="#">contact</a>-->
+        <!--<a href="#">about</a>-->
       </div>
     </div>
   </header>

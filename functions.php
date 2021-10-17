@@ -30,6 +30,7 @@ function ycdl_menus() {
 // собираем несколько зон(областей) меню
 	$locations = [
 		'header'  => __( 'Header Menu', 'ycdl' ),
+		'footer' => __('Footer Menu', 'ycdl'),
 		'footer_left'   => __( 'Footer Left Menu', 'ycdl' ),
 		'footer_right'   => __( 'Footer Right Menu', 'ycdl' ),
 ];
