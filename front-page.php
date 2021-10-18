@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<h6>The front-page.php</h6>
 <div class="swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">

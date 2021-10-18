@@ -217,6 +217,16 @@ main {
   text-align: center;
   position: sticky;
   bottom: 0;
+}
 
+.contactContainer {
+  margin-bottom: 500px;
+  max-width: 910px;
+  font-family: "Inter-Regular",
+    sans-serif;
+  margin: 100px auto 450px;
+}
 
+.contactContainer-text a {
+  text-decoration: none;
 }
