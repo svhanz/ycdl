@@ -42,21 +42,21 @@ add_action('init', 'ycdl_menus');
 // Шаблон для создания нового типа записи
 add_action( 'init', 'register_post_types' );
 function register_post_types(){
-	register_post_type( 'films', [
+	register_post_type( 'movies', [
 		'label'  => null,
 		'labels' => [
-			'name'               => 'films', // основное название для типа записи
-			'singular_name'      => 'film', // название для одной записи этого типа
+			'name'               => 'movies', // основное название для типа записи
+			'singular_name'      => 'movie', // название для одной записи этого типа
 			'add_new'            => 'add new', // для добавления новой записи
 			'add_new_item'       => 'add new item', // заголовка у вновь создаваемой записи в админ-панели.
 			'edit_item'          => 'edit item', // для редактирования типа записи
-			'new_item'           => 'new film', // текст новой записи
-			'view_item'          => 'view film', // для просмотра записи этого типа.
-			'search_items'       => 'search film', // для поиска по этим типам записи
+			'new_item'           => 'new movie', // текст новой записи
+			'view_item'          => 'view movie', // для просмотра записи этого типа.
+			'search_items'       => 'search movie', // для поиска по этим типам записи
 			'not_found'          => 'not found', // если в результате поиска ничего не было найдено
 			'not_found_in_trash' => 'not found in trash', // если не было найдено в корзине
 			'parent_item_colon'  => '', // для родителей (у древовидных типов)
-			'menu_name'          => 'Films', // название меню
+			'menu_name'          => 'movies', // название меню
 		],
 		'description'         => '',
 		'public'              => true,
