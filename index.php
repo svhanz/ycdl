@@ -23,8 +23,6 @@
   <!--<div class="swiper-button-prev"></div>-->
   <!--</div>-->
   <!--==END SWIPER==-->
-  <h6>сука</h6>
-
 </main>
 <!--==END MAIN==-->
 <!--==START FOOTER==-->

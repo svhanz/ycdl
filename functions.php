@@ -42,7 +42,7 @@ add_action('init', 'ycdl_menus');
 // Шаблон для создания нового типа записи
 add_action( 'init', 'register_post_types' );
 function register_post_types(){
-	register_post_type( 'post_type_name', [
+	register_post_type( 'films', [
 		'label'  => null,
 		'labels' => [
 			'name'               => 'films', // основное название для типа записи

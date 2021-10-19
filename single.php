@@ -2,13 +2,14 @@
 <section class="section__blog-wrap">
   <div class="container">
     <?php
-    while ( have_posts() ) :
-        the_post();
-        get_template_part( 'template-parts/content', get_post_type() );
-        endif;
-    endwhile; // End of the loop.
-    ?>
-  </div>
-</section>
-<h6>сука</h6>
-<?php get_footer();?>
+while (have_posts()) { 
+	the_post();
+	?>
+    Вывод контента...
+    <h6>сука</h6>
+    <h1><?php the_title(); ?></h1>
+    <?php
+}
+?>
+
+    <?php get_footer(); ?>
