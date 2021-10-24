@@ -230,3 +230,15 @@ main {
 .contactContainer-text a {
   text-decoration: none;
 }
+
+.section__blog-wrap {
+  max-width: 910px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.container__blog-wrap {
+  margin: 0 auto;
+  width: 100%;
+}
