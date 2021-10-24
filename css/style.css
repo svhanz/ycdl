@@ -242,3 +242,10 @@ main {
   margin: 0 auto;
   width: 100%;
 }
+
+#menu-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
